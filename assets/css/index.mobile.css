@@ -1,0 +1,46 @@
+@media screen and (max-width: 750px){
+	.responsive-li{
+		width: 100%;
+		padding: 1rem;
+		text-align: center;
+		font-size: 2rem;
+	}
+	nav ul{
+		display:none;
+	}
+	#nav-button{
+		display: inline-block;
+		margin: 1rem 0;
+		text-align:center;
+		background-color: #559955;
+		font-size: 2rem;
+		padding: 5px 10px;
+		color: white;
+		border: none;
+		border-radius: 0;
+	}
+	#nav-button span{
+		color: white;
+	}
+	#nav-button:hover{
+		background-color: #338833;
+	}
+	.six.columns{
+		width: 100%;
+		margin-left:0;
+		margin-top: inherit;
+	}
+	.section-heading:after{
+		left: 42%;
+	}
+}
+@media screen and (max-width: 550px){
+	.about-us-card{
+		margin-top: 1.5rem;
+	}
+}
+@media screen and (max-width: 400px) {
+	.section-heading:after{
+		left: 35%;
+	}
+}
